@@ -1,5 +1,4 @@
 body {
-  background-color: black;
 }
 
 .App {
@@ -39,4 +38,20 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.App .video-playlist {
+  display: flex;
+}
+
+h3 {
+  text-align: left;
+}
+
+.App .directories {
+  text-align: left;
+}
+
+.App .files {
+  text-align: left;
 }
